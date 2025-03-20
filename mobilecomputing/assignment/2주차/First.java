@@ -1,4 +1,4 @@
-package assignment;
+// package assignment;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class first {
+public class First {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
