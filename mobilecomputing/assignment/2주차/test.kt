@@ -1,8 +1,9 @@
 import java.util.*
 
 fun main() {
-    val scanner = Scanner(System.`in`) // scanner 객체 생성
-    val line = scanner.nextLine() // 입력받을 변수인 'line' 생성
+    // val scanner = Scanner(System.`in`) // scanner 객체 생성
+    val line = readLine() ?: return
+    // val line = scanner.nextLine() // 입력받을 변수인 'line' 생성
     val map = mutableMapOf<Char, Int>() // char 당 count를 위해 dictionary와 유사한 map 생성
     
     val charList = line.toList() // String을 List<Char>로 변환
@@ -21,5 +22,5 @@ fun main() {
         }
     }
     
-    scanner.close() // 입력이후 scanner는 닫아줌
+    // scanner.close() // 입력이후 scanner는 닫아줌
 }
